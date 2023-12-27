@@ -107,11 +107,7 @@ class CategorySlider extends StatelessWidget {
                                   children: [
                                     Text(
                                       title,
-                                      style: const TextStyle(
-                                        color: Colors.black,
-                                        fontSize: 13,
-                                        fontWeight: FontWeight.bold,
-                                      ),
+                                      style: Styles.font13blackbold,
                                       overflow: TextOverflow.ellipsis,
                                       maxLines: 1,
                                       textAlign: TextAlign.center,

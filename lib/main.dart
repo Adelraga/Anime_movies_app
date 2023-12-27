@@ -6,6 +6,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:movie_app/bloc_observe.dart';
 import 'package:movie_app/cors/DI/dependency_injection.dart';
 import 'package:movie_app/cors/Routing/app_router.dart';
+import 'package:movie_app/cors/Themeing/theme_data_dark.dart';
+import 'package:movie_app/cors/Themeing/theme_data_light.dart';
 import 'package:movie_app/features/home/logic/top_rated_cubit/top_rated_cubit.dart';
 
 void main() async {
@@ -34,11 +36,8 @@ class _MyAppState extends State<MyApp> {
         child: MaterialApp.router(
           routerConfig: AppRouter.router,
           debugShowCheckedModeBanner: false,
-          theme: ThemeData.light().copyWith(
-              //scaffoldBackgroundColor: KPrimaryColor,
-              //   textTheme:
-              //       GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
-              ),
+          theme: getThemeDataDark(),
+        
         ),
       ),
     );
