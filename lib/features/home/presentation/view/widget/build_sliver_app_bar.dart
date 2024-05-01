@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/cors/Widgets/fade_animation.dart';
 import 'package:movie_app/features/home/data/models/character_detail.dart';
 import 'package:movie_app/features/home/data/models/characters_list.dart';
 
@@ -20,12 +21,15 @@ class buildSliverAppBar extends StatelessWidget {
         ),
         background: Hero(
           tag: character.mal_id ?? 0,
-          child: Image.network(
-            character.images?.jpg?.image_url ?? "",
-            fit: BoxFit.cover,
+          child: ScaleAnimation(
+            child: Image.network(
+              character.images?.jpg?.image_url ?? "",
+              fit: BoxFit.cover,
+               scale: 2
+            ),
           ),
         ),
       ),
     );
-  }
+  } 
 }

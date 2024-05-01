@@ -45,7 +45,7 @@ class _CustomCateoryListViewState extends State<CustomCateoryListView> {
           return Column(
             children: [
               SizedBox(
-                height: MediaQuery.of(context).size.height * 0.05,
+                height: MediaQuery.of(context).size.height * 0.06,
                 child: ListView.builder(
                   itemCount: state.category.length,
                   scrollDirection: Axis.horizontal,
@@ -74,7 +74,7 @@ class _CustomCateoryListViewState extends State<CustomCateoryListView> {
                                     : const Color.fromARGB(255, 255, 255, 255),
                               ),
                             ),
-                            height: 40,
+                            height: 50,
                             child: Padding(
                               padding: const EdgeInsets.all(9),
                               child: Text(
