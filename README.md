@@ -6,6 +6,19 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
+### ScreenShot
+
+<table>
+  <tr>
+    <td><img src="https://github.com/Adelraga/Anime_movies_app/assets/87029529/1f8a5da9-8468-44ff-9eeb-15a0cef8ab68" width="150" height="300"></td>
+    <td><img src="https://github.com/Adelraga/Anime_movies_app/assets/87029529/5923faef-3b19-4f73-b989-a8280d6d9282" width="150" height="300"></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Adelraga/Anime_movies_app/assets/87029529/37147486-adf6-4f04-8a95-be76bc0f636f" width="150" height="300"></td>
+    <td><img src="https://github.com/Adelraga/Anime_movies_app/assets/87029529/d328ffdd-e14c-417f-b95e-20304c1a224d" width="150" height="300"></td>
+  </tr>
+</table>
+
 ### My Dependencies
   - bloc: ^8.1.2
   - build_runner: ^2.4.7
@@ -31,9 +44,5 @@ This project is a starting point for a Flutter application.
   - retrofit_generator: ^8.0.5
   - url_launcher: ^6.2.2
     
-### ScreenShot
-![Screenshot_1703598500](https://github.com/Adelraga/Anime_movies_app/assets/87029529/1f8a5da9-8468-44ff-9eeb-15a0cef8ab68)
-![Screenshot_1703598549](https://github.com/Adelraga/Anime_movies_app/assets/87029529/5923faef-3b19-4f73-b989-a8280d6d9282)
 
-![Screenshot_1703598572](https://github.com/Adelraga/Anime_movies_app/assets/87029529/37147486-adf6-4f04-8a95-be76bc0f636f)
-![Screenshot_1703598586](https://github.com/Adelraga/Anime_movies_app/assets/87029529/d328ffdd-e14c-417f-b95e-20304c1a224d)
+
